@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <title>Demo</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top nav-menu" id="home1">
+			<a href="#" class="navbar-brand text-light text-uppercase photox">
+                <span class="h2">Photo</span>
+                <span class="h1" style="margin-left: -5px;">X</span>
+            </a>
+			 <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#photo">
+		    	<div class="bg-light line1"></div>
+		    	<div class="bg-light line2"></div>
+		    	<div class="bg-light line3"></div>
+			</button>
+			<div class="collapse navbar-collapse text-uppercase justify-content-end " id="photo">
+				<ul class="navbar-nav align-items-lg-center text-center ">
+					<li class="nav-item">
+						<a href="#home1" id="home" class="nav-link m-2 menu-item active">Trang chủ</a>
+					</li>
+					<li class="nav-item">
+						<a href="#nv1" id="nhiemvu" class="nav-link m-2 menu-item">Nhiệm vụ</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sp1" id="sanpham" class="nav-link m-2 menu-item">Sản phẩm</a>
+					</li>
+					<li class="nav-item">
+						<a href="#bst1" id="bosuutap" class="nav-link m-2 menu-item">Bộ sưu tập</a>
+					</li>
+					<li class="nav-item">
+						<a href="#tv1" id="thuvien" class="nav-link m-2 menu-item">Thư viện</a>
+					</li>
+					<li class="nav-item">
+						<a href="#kh1" id="khachhang" class="nav-link m-2 menu-item">Khách hàng</a>
+					</li>
+					<li class="nav-item">
+						<a href="#gia1" id="gia" class="nav-link m-2 menu-item">Giá</a>
+					</li>
+					<li class="nav-item">
+						<a href="#lh1" id="lienhe" class="nav-link m-2 menu-item">Liên hệ</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+        <div class="text-white text-md-right text-center banner">
+			<h1 class="display-4 banner-heading ">Welcom to PHOTO<span class="display-3">X</span></h1>
+			<p class="banner-par">Khám phá bí mật giúp cải thiện những bức ảnh của bạn.</p>
+		</div>
+    </header>
+    <!-- nhiemvu -->
+    <section class="nhiemvu p-5 " id="nv1">
+		<div class="container-fluid">
+			<div class="row text-white text-center">
+				<div class="col my-sm-4">
+					<h1 class="display-4 mb-4">Nhiệm vụ của chúng tôi</h1>
+					<div class="underline mb-4"></div>
+					<p class="">Chúng tôi đã cố gắng duy trì sự tương hợp giữa sự phát triển công nghệ và hình ảnh thương hiệu. Hệ thống hình ảnh toàn diện (Total Imaging System) của chúng tôi - một hệ thống hợp nhất máy camera, thấu kính, máy scan, phụ tùng kèm theo - đảm bảo chất lượng và tính chính xác. Chúng tôi luôn tiếp tục mở rộng dòng sản phẩm và hoàn thiện sản phẩm với nhiều tính năng mới, tiện lợi hơn và cải tiến.</p>
+				</div>
+			</div>
+			<div class="row my-sm-5 nhiemvu-camera">
+				<div class="col-md-4 text-center text-white">
+					<i class="fas fa-cogs fa-5x text-danger mb-4"></i>
+					<h1 class="text-white mb-3">Sáng tạo</h1>
+					<p class="text-muted">Cùng với sự phát triển không ngừng của công nghệ hiện nay, chúng tôi luôn nỗ lực và sáng tạo để có thể tạo ra những bức ảnh tuyệt nhất.</p>
+				</div>
+				<div class="col-md-4 text-center text-white">
+					<i class="fas fa-thumbs-up fa-5x text-danger mb-4"></i>
+					<h1 class="text-white mb-3">Chất lượng</h1>
+					<p class="text-muted">Chúng tôi còn chú trọng cho ra đời các sản phẩm máy ảnh đáp ứng được nhu cầu đa dạng của khách hàng với mẫu mã đẹp, giá thành phù hợp. Chính vì thế, PhotoX vẫn luôn là thương hiệu không dễ bị "phai nhạt" trên thị trường các nước.</p>
+				</div>
+				<div class="col-md-4 text-center text-white">
+					<i class="fas fa-handshake fa-5x text-danger mb-4"></i>
+					<h1 class="text-white mb-3">Kinh nghiệm</h1>
+					<p class="text-muted">Không ngừng phát triển và nỗ lực, bên cạnh những bức ảnh được tạo ra chúng tôi sẽ đem đến cho bạn những trải nghiệm tuyệt vời nhờ những kinh nghiệm của các nhà nhiếp ảnh chuyên nghiệp.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row align-items-center my-3 mb-5">
+				<div class="col-lg-5 text-center">
+					<img src="images/camera5.png" width="350" class="img-fluid camera-img mb-4">
+				</div>
+				<div class="col-lg-7 text-white text-center text-lg-right nhiemvu-text">
+					<h1 class="">Những gì chúng tôi làm.</h1>
+					<p class="">Trong hơn 90 năm, chúng tôi đã luôn đặt mục tiêu cho mình là phải vượt qua mong đợi của người tiêu dùng bằng cách xây dựng các sản phẩm đạt tiêu chuẩn cao nhất về độ tin cậy và chính xác. Dù là thông qua kỹ nghệ bậc thầy hay công nghệ hiện đại, thì trình độ chuyên môn hàng đầu của chúng tôi luôn thể hiện ở tâm điểm của mỗi sản phẩm PhotoX. Là một công dân tận tụy toàn cầu, tập đoàn các công ty PhotoX cũng hỗ trợ nhiều dự án trong nước và quốc tế trên mọi lĩnh vực thuộc trách nhiệm xã hội doanh nghiệp với cách thức tiếp cận cơ bản dựa trên triết lý của công ty PhotoX là "Tin cậy và Sáng tạo".</p>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- endnv -->
+    <!-- sanpham -->
+	<section class="sanpham" id="sp1">
+		<div class="container-fluid">
+			<div class="row text-muted text-center">
+				<div class="col m-5">
+					<h1 class="display-4 mb-4">Sản phẩm</h1>
+					<div class="underline-dark mb-4"></div>
+					<p class="lead">Một số sản phẩm tiêu biểu của chúng tôi</p>
+				</div>
+			</div>
+            <div class="row mb-5">
+                <div class="col">
+                    <ul class="nav sanpham-tabs border-bottom">
+                        <li class="nav-item">
+							<a class="nav-link active" id="pills-Canon-tab" data-toggle="pill" href="#pills-Canon" role="tab">Canon</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-Nikon-tab" data-toggle="pill" href="#pills-Nikon" role="tab">Nikon</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-Sony-tab" data-toggle="pill" href="#pills-Sony" role="tab">Sony</a>
+						</li>
+                    </ul>
+                    <div class="tab-content px-4 mb-4" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="pills-Canon" role="tabpanel">
+							<div class="mt-4">							
+								<h5>Canon</h5>
+								<div class="row">
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/canon1.jpg" class="card-img-top" width="100%" alt="canon1">
+										  <div class="card-body">
+										    <p class="card-text">Máy ảnh Canon EOS M5 Kit EF-M15-45mm - Chính Hãng</p>
+										    <p class="card-text">29.999.000 đ</p>
+										  </div>
+										</a>
+									</div>
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/canon2.jpg" class="card-img-top" width="100%" alt="canon2">
+										  <div class="card-body">
+										    <p class="card-text">Máy ảnh Canon EOS 800D kit 18-55mm STM - Chính hãng</p>
+										    <p class="card-text">14.999.000 đ</p>
+										  </div>
+										</a>
+									</div>
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/canon3.jpg" class="card-img-top" width="100%" alt="canon3">
+										  <div class="card-body">
+										    <p class="card-text">Máy ảnh Canon 25X 750D kit 18-55mm STM - Chính hãng</p>
+										    <p class="card-text">26.999.000 đ</p>
+										  </div>
+										</a>
+									</div>
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/canon4.jpg" class="card-img-top" width="100%" alt="canon4">
+										  <div class="card-body">
+										  	<p class="card-text">MÁY ẢNH CANON EOS M6 + LENS KIT 15-45MM</p>
+										    <p class="card-text">16.999.000 đ</p>
+										  </div>
+										</a>
+									</div>
+								</div>
+							</div>	
+						</div>
+                        <!-- endcanon -->
+                        <div class="tab-pane fade" id="pills-Nikon" role="tabpanel">
+							<div class="mt-4">							
+								<h5>Nikon</h5>
+								<div class="row">
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/nikon1.jpg" class="card-img-top" width="100%" alt="nikon1">
+										  <div class="card-body">
+										    <p class="card-text">Nikon D7200 24.2MP với Lens kit 18-200 VR (Đen)</p>
+										    <p class="card-text">49.999.000 đ</p>
+										  </div>
+										</a>
+									</div>
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/nikon2.jpg" class="card-img-top" width="100%" alt="nikon2">
+										  <div class="card-body">
+										    <p class="card-text">Nikon D5300 24.2MP với Lens kit 18-55mm F3.5 - 5.6G VRII</p>
+										    <p class="card-text">16.469.000  đ</p>
+										  </div>
+										</a>
+									</div>
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/nikon3.jpg" class="card-img-top" width="100%" alt="nikon3">
+										  <div class="card-body">
+										    <p class="card-text">Nikon D7100 24.1MP với Lens kit 18-105mm F3.5-5.6G (Đen)</p>
+										    <p class="card-text">22.999.000 đ</p>
+										  </div>
+										</a>
+									</div>
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/nikon4.jpg" class="card-img-top" width="100%" alt="nikon4">
+										  <div class="card-body">
+										  	<p class="card-text">Nikon D7400 24.2MP với Lens kit 25-140mm VR (Đen)</p>
+										    <p class="card-text">33.129.000 đ</p>
+										  </div>
+										</a>
+									</div>
+								</div>
+							</div>	
+						</div>
+                        <!-- endnikon -->
+                        <div class="tab-pane fade" id="pills-Sony" role="tabpanel">
+							<div class="mt-4">							
+								<h5>Sony</h5>
+								<div class="row">
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/sony1.jpg" class="card-img-top" width="100%" alt="sony1">
+										  <div class="card-body">
+										    <p class="card-text">Máy ảnh Sony Alpha A6300 24MP và KIT 16-50 F3.5-5.6 OSS (Đen)</p>
+										    <p class="card-text">43.499.000 đ</p>
+										  </div>
+										</a>
+									</div>
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/sony2.jpg" class="card-img-top" width="100%" alt="sony2">
+										  <div class="card-body">
+										    <p class="card-text">Máy ảnh KTS Sony - DSC-H300 E32 20.1MP và Zoom quang 35x (Đen)</p>
+										    <p class="card-text">3.469.000 đ</p>
+										  </div>
+										</a>
+									</div>
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/sony3.jpg" class="card-img-top" width="100%" alt="sony3">
+										  <div class="card-body">
+										    <p class="card-text">Máy ảnh Sony Cybershot Rx100 mark VI với ống kính siêu zoom 24-200m</p>
+										    <p class="card-text">24.999.000 đ</p>
+										  </div>
+										</a>
+									</div>
+									<div class="col-xl-3 col-md-5 col-12 my-3">
+										<a href="#" class="card">
+										  <img src="images/sony4.jpg" class="card-img-top" width="100%" alt="sony4">
+										  <div class="card-body">
+										  	<p class="card-text">Máy Ảnh Sony A7M3 - ILCE7M3 - ILCE 7MIII- A7Mark 3- A7 mark III Body</p>
+										    <p class="card-text">33.129.000 đ</p>
+										  </div>
+										</a>
+									</div>
+								</div>
+							</div>	
+						</div>
+                        <!-- endsony -->
+                </div>
+            </div>
+		</div>
+	</section>
+    <!-- endsp -->
+	<!-- bosuutap -->
+	<section class="bosuutap bg-secondary pt-4 " id="bst1">
+		<div class="container-fluid pb-4">
+			<div class="row ">
+				<div class="col m-4 text-white text-center">
+					<h1 class="display-4 mb-4 pt-3">Bộ sưu tập</h1>
+					<div class="underline mb-4"></div>
+					<p class="lead">Những bộ ảnh mà chúng tôi tạo ra gần đây</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card-shadow">
+					  <img src="images/natura.jpg" class="card-img">
+					  <div class="card-img-overlay">
+					    <h5 class="text-white text-uppercase pt-2 pb-1 heading">Natura Photography</h5>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card-shadow">
+					  <img src="images/wedding.jpg" class="card-img">
+					  <div class="card-img-overlay">
+					    <h5 class="text-white text-uppercase pt-2 pb-1 heading">Wedding Photography</h5>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card-shadow">
+					  <img src="images/party.jpg" class="card-img">
+					  <div class="card-img-overlay">
+					    <h5 class="text-white text-uppercase pt-2 pb-1 heading">Party Photography</h5>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card-shadow">
+					  <img src="images/busi.jpg" class="card-img">
+					  <div class="card-img-overlay">
+					    <h5 class="text-white text-uppercase pt-2 pb-1 heading">Business Photography</h5>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card-shadow">
+					  <img src="images/fashion.jpg" class="card-img">
+					  <div class="card-img-overlay">
+					    <h5 class="text-white text-uppercase pt-2 pb-1 heading">Fashion Photography</h5>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card-shadow">
+					  <img src="images/family.jpg" class="card-img">
+					  <div class="card-img-overlay">
+					    <h5 class="text-white text-uppercase pt-2 pb-1 heading">Family Photography</h5>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- endbosuutap -->
+	<!-- thuvien -->
+	<section class="thuvien m-3 pt-2 pb-4" id="tv1">
+		<div class="container-fluid">
+			<div class="row text-muted text-center">
+				<div class="col m-5">
+					<h1 class="display-4 mb-4">Thư viện</h1>
+					<div class="underline-dark mb-4"></div>
+				</div>
+			</div>
+			<ul class="list-inline text-uppercase text-center mb-4">
+				<li class="list-inline-item thuvien-list-item active-item" img-phanloai="all">
+					All 
+					<span class="mx-5 mx-1 text-muted">/</span>
+				</li>
+				<li class="list-inline-item thuvien-list-item" img-phanloai="new">
+					New 
+					<span class="mx-5 mx-1 text-muted">/</span>
+				</li>
+				<li class="list-inline-item thuvien-list-item" img-phanloai="free">
+					Free 
+					<span class="mx-5 mx-1 text-muted">/</span>
+				</li>
+				<li class="list-inline-item thuvien-list-item" img-phanloai="pro">
+					Pro
+				</li>
+			</ul>
+			<div class="container-fluid">
+				<div class="d-flex flex-wrap justify-content-center">
+					<div class="loai new"><img src="images/4.jpg" width="300"></div>
+					<div class="loai pro"><img src="images/3.jpg" width="300"></div>
+					<div class="loai new"><img src="images/7.jpg" width="300"></div>
+					<div class="loai free"><img src="images/10.jpg" width="300"></div>
+					<div class="loai new free"><img src="images/busi.jpg" width="300"></div>
+					<div class="loai free"><img src="images/fashion.jpg" width="300"></div>
+					<div class="loai pro"><img src="images/11.jpg" width="300"></div>
+					<div class="loai pro"><img src="images/2.jpg" width="300"></div>
+					<div class="loai free"><img src="images/9.jpg" width="300"></div>
+					<div class="loai new"><img src="images/13.jpg" width="300"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- endtv -->
+	<!-- khachhang -->
+	<section class="khachhang p-5 bg-dark" id="kh1">
+		<div class="container-fluid">
+			<div class="row text-center text-white">
+				<div class="col">
+					<h1 class="display-4 mb-4 mt-4">Khách hàng</h1>
+					<div class="underline mb-4"></div>
+					<p class="lead">Những gì chúng tôi đạt được điều nhờ vào các bạn.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 mx-auto">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0"></li>
+					    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item text-center">
+					      <img src="images/user.png" class="rounded-circle my-5" width="150">
+					      <blockquote class="blockquote text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					      tempor incididunt ut labore et dolore magna aliqua.</blockquote>
+					      <h5 class="text-uppercase font-weight-bold text-white pt-4 pb-2">Hela</h5>
+					      <ul class="list-inline mb-5">
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+					      </ul>
+					    </div>
+					    <div class="carousel-item text-center  active">
+					      <img src="images/user.png" class="rounded-circle my-5" width="150">
+					      <blockquote class="blockquote text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					      tempor incididunt ut labore et dolore magna aliqua.</blockquote>
+					      <h5 class="text-uppercase font-weight-bold text-white pt-4 pb-2">Monica</h5>
+					      <ul class="list-inline mb-5">
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-white"></i></li>
+					      </ul>
+					    </div>
+					    <div class="carousel-item text-center">
+					      <img src="images/user.png" class="rounded-circle my-5" width="150">
+					      <blockquote class="blockquote text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					      tempor incididunt ut labore et dolore magna aliqua.</blockquote>
+					      <h5 class="text-uppercase font-weight-bold text-white pt-4 pb-2">Ares</h5>
+					      <ul class="list-inline mb-5">
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-white"></i></li>
+							<li class="list-inline-item"><i class="fas fa-star text-white"></i></li>
+					      </ul>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- endkhachhang -->
+	<!-- gia -->
+	<section class="gia p-sm-5 pt-5 pb-4" id="gia1">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col text-muted text-center">
+					<h1 class="display-4 mb-4 mt-4">Tham gia với chúng tôi</h1>
+					<div class="underline-dark mb-4"></div>
+					<p class="lead mb-4">Giúp chúng tôi biết bạn có phải là thành viên.</p>
+				</div>
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-3 col-sm-8  my-4 mr-lg-auto ml-sm-0  ml-lg-5">
+					<div class="card gia-trai gia-opacity">
+						<div class="card-body card-item text-white text-center">
+							<h6 class="text-uppercase car-title mb-5 mt-3">Monthly Membership</h6>
+	                        <h1 class="display-4 card-pay"><i class="fas fa-dollar-sign"></i> 19</h1>
+	                        <ul class="list-unstyled">
+	                        	<li class=" py-3 car-title card-list-item">Photoshop</li>
+	                        	<li class=" py-3 car-title card-list-item">After Affect</li>
+	                        	<li class=" py-3 car-title card-list-item">Graphic Design</li>
+	                        	<li class=" py-3 car-title">Video Montage</li>
+	                        </ul>
+	                        <a href="#" class="btn p-2 text-uppercase font-weight-bold text-light card-gia-button px-3 mb-3">Sign Up</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 pull-1 col-sm-8  my-4">
+					<div class="card gia-giua gia-opacity">
+						<div class="card-body card-item text-white text-center">
+							<h6 class="text-uppercase car-title mb-5 mt-3">Unlimited Access</h6>
+	                        <h1 class="display-4 card-pay"><i class="fas fa-dollar-sign"></i> 499</h1>
+	                        <ul class="list-unstyled">
+	                        	<li class=" py-3 car-title card-list-item">Photoshop</li>
+	                        	<li class=" py-3 car-title card-list-item">After Affect</li>
+	                        	<li class=" py-3 car-title card-list-item">Graphic Design</li>
+	                        	<li class=" py-3 car-title card-list-item">Video Montage</li>
+	                        	<li class=" py-3 car-title">Clip Making</li>
+	                        </ul>
+	                        <a href="#" class="btn p-2 text-uppercase font-weight-bold text-light card-gia-button px-3 mb-3">Sign Up</a>
+						</div> 
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-8 my-4 ml-lg-auto mr-sm-0 mr-lg-5">
+					<div class="card gia-phai">
+						<div class="card-body card-item text-white text-center">
+							<h6 class="text-uppercase car-title mb-5 mt-3">Annual Membership</h6>
+	                        <h1 class="display-4 card-pay"><i class="fas fa-dollar-sign"></i> 199</h1>
+	                        <ul class="list-unstyled">
+	                        	<li class=" py-3 car-title card-list-item">Photoshop</li>
+	                        	<li class=" py-3 car-title card-list-item">After Affect</li>
+	                        	<li class=" py-3 car-title card-list-item">Graphic Design</li>
+	                        	<li class=" py-3 car-title">Video Montage</li>
+	                        </ul>
+	                        <a href="#" class="btn p-2 text-uppercase font-weight-bold text-light card-gia-button px-3 mb-3">Sign Up</a>
+						</div>
+					</div>
+				</div>
+				<div class="row p-sm-5 pt-2">
+					<div class="col text-center">
+						<h3 class="text-muted thank">Cảm ơn đã đồng hành cùng chúng tôi.</h3>
+						 <h3 class="text-center"><i class="fas fa-coffee fa-2x coff"></i></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- lh -->	
+	<section class="lienhe p-md5" id="lh1">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-5 pb-4 text-white">
+					<h3 class="display-4 mb-4 mt-5 mx-5 mb-sm-5 get">Get in Touch</h3>
+					<form class="form-lh">
+						<div class="form-group mb-5">
+							<input type="text" class="form-control input mx-5" placeholder="Name">
+					      	<label for="Name" class="lablel label1 ">Name</label>
+						</div>
+						<div class="form-group mb-5">
+							<input type="text" class="form-control input mx-5" placeholder="Email">
+					      	<label for="Name" class="lablel label1 ">Email</label>
+						</div>
+						<div class="form-group mb-5 mx-5">
+							<input type="checkbox" checked>
+					    	<label for="checked" class="lablel">Send Announcemets</label>
+						</div>
+						<button type="submit" class="btn btn-block text-uppercase bg-success text-white font-weight-bold mx-5 mb-5">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- endlh -->
+	<footer class="bg-dark px-sm-5">
+		<div class="container-fluid">
+			<div class="row text-light pt-4">
+					<div class="col-lg-4 col-sm-6">
+						<h5 class="pb-3">About Us</h5>
+						<p class="small">Tại PhotoX, không có gì hấp dẫn hơn tiềm năng của hình ảnh để làm phong phú thêm trải nghiệm của con người. Mong muốn chân thành của chúng tôi là tiếp tục khám phá thêm nhiều khả năng để khai thác tiềm năng đó nhiều hơn nữa. Chúng tôi chủ động cố gắng tinh chỉnh cảm giác của con người thông qua nhiếp ảnh, vì điều này tạo ra giá trị mới cho hình ảnh, mở ra bí mật để truyền cảm hứng cho mọi người thể hiện được ý nguyện của tâm hồn</p>
+					</div>
+					<div class="col-lg-2 col-sm-6">
+						<h5 class="pb-3">Visit Us</h5>
+						<ul class="list-unstyled small">
+							<li><a href="#" class="footer-link">Home</a></li>
+							<li><a href="#" class="footer-link">Mission</a></li>
+							<li><a href="#" class="footer-link">Collection</a></li>
+							<li><a href="#" class="footer-link">Galery</a></li>
+							<li><a href="#" class="footer-link">Customers</a></li>
+							<li><a href="#" class="footer-link">gia</a></li>
+							<li><a href="#" class="footer-link">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-sm-6">
+						<h5 class="pb-3">Need Help?</h5>
+						<ul class="list-unstyled small">
+							<li><a href="#" class="footer-link text-uppercase my-3">Customers</a></li>
+							<li><a href="#" class="footer-link text-uppercase my-3">Online Chat</a></li>
+							<li><a href="#" class="footer-link text-uppercase my-3">Support</a></li>
+							<li><a href="#" class="text-info footer-link my-3">Photox@gmail.com</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<h5>Stay Connected</h5>						
+						<p class="small">Giúp chúng tôi giữ liên lạc cùng bạn.</p>
+						<form>
+							<div class="input-group">
+								<input type="text" class="form-control form-control-sm" placeholder="Email Address">
+								<div class="input-group-append"><button class="btn btn-sm btn-danger text-uppercase ">Sign Up</button></div>
+							</div>
+						</form>
+						<ul class="list-inline mt-3">
+							<li class="list-inline-item"><i class="fab fa-facebook-square fa-x text-primary"></i></li>
+							<li class="list-inline-item"><i class="fab fa-google fa-x text-danger"></i></li>
+							<li class="list-inline-item"><i class="fab fa-instagram fa-x text-danger"></i></li>
+							<li class="list-inline-item"><i class="fab fa-twitter fa-x text-info"></i></li>
+							<li class="list-inline-item"><i class="fab fa-youtube fa-x text-danger"></i></li>
+						</ul>
+					</div>
+			</div>
+			<div class="row border-top mt-3">
+				<div class="col text-center text-white mt-2">
+					<p class="small">&copy;2019 Copyright, All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>

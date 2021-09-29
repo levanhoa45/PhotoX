@@ -1,0 +1,312 @@
+body {
+    font-family: 'Montserrat', sans-serif !important; 
+}
+header{
+	background: linear-gradient(rgba(0, 0, 0, 0.431),rgba(0, 0, 0, 0.52)) ,url(images/camera1.jpg) no-repeat center center;
+	height: 1030px;
+	background-attachment: fixed;
+}
+.banner{
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+}
+.banner-heading{
+	animation-name: animation;
+	animation-duration: 2s;
+}
+.banner-par{
+	animation-name: animation;
+	animation-duration: 4s;
+	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
+}
+@keyframes animation{
+	0%{
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+nav.navbar.navbar-expand-lg.fixed-top.nav-menu{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5));
+	padding: 25px;
+	transition: 0.5s;
+}
+nav.navbar.navbar-expand-lg.fixed-top.nav-menu.scroll-nav{
+	padding: 5px;
+}
+.menu-item{
+	font-size: 13px;
+	letter-spacing: 1px;
+	color: white;
+	transition: 0.5s;
+	font-weight: 500;
+}
+.menu-item.active{
+	color: rgb(97, 151, 185);
+	border-top: 1.5px solid rgb(107, 212, 247);
+	border-bottom: 1.5px solid rgb(107, 212, 247);
+	background: rgba(31, 30, 30, 0.5);
+	border-radius: 1px;
+	display: block;
+}
+.active1{
+	color: rgb(97, 151, 185);
+	border-top: 1.5px solid rgb(107, 212, 247);
+	border-bottom: 1.5px solid rgb(107, 212, 247);
+	border-radius: 1px;
+	background: rgba(0,0,0,0.5);
+	display: block;
+}
+.tab-content{
+	margin-top: -1px;
+	border: 1px solid rgb(190, 190, 190);
+	border-radius: 0px;
+}
+.menu-item:hover{
+	color: rgb(97, 151, 185);
+	background: rgba(31, 30, 30, 0.5);	
+	border-radius: 0px;
+}
+.line1,.line2,.line3{
+	width: 23px;
+	height: 3px;
+	margin: 5px;
+}
+.nhiemvu{
+	background: rgb(19, 28, 29);
+}
+.underline-dark{
+	width: 150px;
+	height: 5px;
+	background: darkgrey;
+	margin: auto;
+}
+ul.sanpham-tabs li.nav-item a.nav-link{
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+	color: rgb(54, 54, 54);
+	transition: all 1s;
+}
+ul.sanpham-tabs li.nav-item a.nav-link.active{
+	background: rgb(112, 112, 112);
+	color: white;
+}
+div.tab-pane .col-xl-3.col-md-5.col-12.my-3 {
+    margin: auto;
+}
+a.card{
+	color: black;
+	transition: all 0.5s;
+	margin: auto;
+}
+a.card p:nth-child(2){
+	color: red;
+	font-size: 15px;
+	font-weight: 500;
+}
+a.card:hover{
+	color: rgb(124, 122, 122);
+	box-shadow: 5px 5px 15px rgb(170, 170, 170);
+	text-decoration: none;
+}
+.sanpham{
+	margin-top: 20px;
+}
+.fa-star{
+	color: orange;
+}
+.fa-star.fa-trang{
+	color: white; 
+}
+.card-shadow{
+	box-shadow: 5px 8px 20px rgb(82, 82, 82);
+	position: relative;
+	transition: 0.5s;
+}
+.card-shadow:hover{
+	transform: translateY(-1px);
+	cursor: pointer;
+}
+.heading{
+	position: absolute;
+	top: 70%;
+	right: 0%;
+	background: rgba(0,0,0,0.5);
+	opacity: 0.8;
+	transition: 0.5s;
+}
+.heading:hover{
+	opacity: 1;
+	background: rgb(31, 30, 30);
+}
+.underline.mb-4{
+	width: 150px;
+	height: 5px;
+	background: white;
+	margin: auto;
+}
+.thuvien-list-item{
+	color: rgb(124, 122, 122);
+	cursor: pointer;
+	font-weight: 600;
+	max-width: auto;
+}
+.active-item{
+	color: lightskyblue;
+}
+.card-item{
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)) ,url('images/camera3.jpg') no-repeat center center ;
+	box-shadow: 7px 18px 35px rgb(82, 82, 82);
+	transition: 0.5s;
+}
+.card-item:hover{
+	transform: scale(1.05);
+	box-shadow: 7px 18px 35px rgb(82, 82, 82);
+}
+.card-list-item{
+	border-bottom: 1px solid white;
+	width: 55%;
+	margin: auto;
+}
+a.btn.p-2.text-uppercase.font-weight-bold.text-light.card-gia-button{
+	background: rgb(250, 54, 19);
+	border-radius: 25px;
+	box-shadow: 5px 8px 18px black;
+	transition: 0.5s;
+}
+a.btn.p-2.text-uppercase.font-weight-bold.text-light.card-gia-button:hover{
+	background: rgb(251, 116, 67);
+	color: white;
+	transform: translateY(-2px);
+}
+.car-title{
+	font-weight: 500;
+}
+nav.navbar.navbar-expand-lg.fixed-top.nav-menu.scroll-nav{
+	padding: 3px;
+}
+.lienhe{
+	background: linear-gradient(105deg,rgba(0, 0, 0, 0.787)0%,rgba(0, 0, 0, 0.746)50%,transparent 50%), url('images/contact.jpg');
+}
+.form-lh input{
+	background: transparent;
+	border: transparent;
+	border-bottom: 2px solid white;
+}
+.form-lh input:focus{
+	background: transparent;
+	box-shadow: none;
+	border-bottom: 2px solid red;
+	color: white;
+}
+.label1{
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 50px;
+	font-size: 12px;
+	transition: all 0.5s;
+	color: rgb(138, 138, 138);
+}
+.input:placeholder-shown + .label1{
+	transform: translate(10px, 10px);
+	opacity: 0%;
+}
+.fa-x{
+	font-size: 150%;
+}
+.footer-link{
+	color: white;
+	transition: 0.5s;
+}
+.footer-link:hover{
+	color: rgb(108, 188, 199);
+	text-decoration: none;
+}
+.nvphai{
+	animation: nvphai;
+	animation-duration: 3s;
+}
+.nvtrai{
+	animation: nvtrai;
+	animation-duration: 3s;
+}
+@keyframes nvphai{
+	0%{
+		transform: translateX(-120px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@keyframes nvtrai{
+	0%{
+		transform: translateX(100px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+.giaphai{
+	animation: giaphai;
+	animation-duration: 3s;
+}
+.giagiua{
+	animation: giagiua;
+	animation-duration: 3s;
+}
+.giatrai{
+	animation: giatrai;
+	animation-duration: 3s;
+}
+@keyframes giaphai{
+	0%{
+		transform: translateX(50px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@keyframes giagiua{
+	0%{
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes giatrai{
+	0%{
+		transform: translateX(-50px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@media screen and (max-width: 992px){
+	.lienhe{
+		background: linear-gradient(rgba(0, 0, 0, 0.787),rgba(0, 0, 0, 0.746)),url('images/contact.jpg');
+	}
+	.form-lh{
+		width: 80%;
+		margin: auto;
+	}
+}
